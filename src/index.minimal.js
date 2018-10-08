@@ -5,7 +5,7 @@ import use from './use';
 import Validator from './core/validator';
 import mapFields from './core/mapFields';
 import ErrorBag from './core/errorBag';
-import { ErrorComponent } from './components';
+import { ValidationProvider } from './components';
 
 export default {
   install,
@@ -15,6 +15,6 @@ export default {
   mapFields,
   Validator,
   ErrorBag,
-  ErrorComponent,
+  ValidationProvider,
   version: '__VERSION__'
 };
